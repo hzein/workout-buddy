@@ -6,6 +6,7 @@ const Navbar = () => {
   const { logout } = useLogout();
   const { user } = useAuthContext();
 
+  //handle logout
   const handleClick = () => {
     logout();
   };
